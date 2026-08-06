@@ -232,9 +232,9 @@ This project is licensed under the MIT License.
 
 Embedded Systems | BLE & IoT Engineer
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/PinToCode
 
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn: https://www.linkedin.com/in/jerit-jose-7991ba274/
 
 ---
 
