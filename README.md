@@ -38,10 +38,30 @@ The software includes filtering, dead-zone removal, precision scaling, and motio
 | ESP32-C3 SuperMini | Main microcontroller |
 | MPU9250 | 9-Axis IMU |
 | TTP223 | Capacitive Touch Sensor |
-| Li-ion Battery | Portable power source |
-| TP4056 | Battery charging module |
+| 3.7V 400mAh Li-Po Battery | Portable power source |
+| TP4056 Charging Module | Battery charging and protection |
 
 ---
+
+## Power Supply
+
+The ESP32 Air Pointer is designed to be fully portable and is powered by a **3.7V 400mAh rechargeable Lithium Polymer (Li-Po) battery**.
+
+Battery charging is handled by a **TP4056 USB charging module** with battery protection.
+
+To match the charging current with the 400mAh battery, the **R3 (PROG) resistor** on the TP4056 module was replaced with a **6.8 kΩ resistor** (measured approximately **6.7 kΩ**). This reduces the charging current to approximately **180 mA**, providing safer charging and helping extend battery life.
+
+---
+
+### Power Components
+
+| Component | Specification |
+|----------|---------------|
+| Battery | 3.7V 400mAh Rechargeable Li-Po Battery |
+| Charging Module | TP4056 USB Li-Po Charger |
+| Modified PROG (R3) Resistor | 6.8 kΩ (Measured ≈ 6.7 kΩ) |
+| Approximate Charging Current | ~180 mA |
+| Power Output | 3.7V Nominal (4.2V Fully Charged) |
 
 ## Gesture Controls
 
