@@ -184,10 +184,7 @@ ESP32-Air-Pointer/
 ├── LICENSE
 ├── images/
 │   ├── hardware.jpg
-│   ├── wiring.png
-│   ├── demo.gif
-│   └── airpointer.jpg
-│
+│   └── wiring.png
 └── docs/
     └── schematic.pdf
 ```
